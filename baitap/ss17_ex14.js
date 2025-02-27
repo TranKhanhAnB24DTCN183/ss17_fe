@@ -1,0 +1,11 @@
+let r=+prompt('Nhap vao ban kinh');
+let h=+prompt('Nhap vao chieu cao');
+document.write(r+' '+h+'<br>');
+let sXp=(2*(Math.PI)*r*h);
+document.write(sXp+'<br>');
+let sTp=(2*(Math.PI)*r*h)+(2*(Math.PI)*(r**2));
+document.write(sTp+'<br>');
+let v=((Math.PI)*(r**2)*h);
+document.write(v+'<br>');
+let cVi=((Math.PI)*(r**2));
+document.write(cVi+'<br>');
